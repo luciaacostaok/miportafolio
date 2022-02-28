@@ -1,0 +1,532 @@
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #333333; 
+    background-color: #F7F9FB; 
+    font-family: 'Oswald', sans-serif; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Portada*/
+
+.portada{
+    background-color: #F7F9FB;
+    background-position: center;
+    background-size: cover;
+    max-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+.portada-contenedor{
+    max-width: 100%;
+    max-height: min-content;
+    overflow: hidden;
+    display: block;
+}
+
+.img-portada-contenedor{
+    max-width: 430px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 50px;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+
+.img-portada{
+    overflow: hidden;
+}
+
+/*Texto de la portada*/
+.texto-contenedor{
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.titulo{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #2F335B;
+}
+
+.subtitulo{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS';
+    color: #ff6978  ;
+    font-weight: 1000;
+    width: 700px;
+}
+
+/*Menuuuuuuuuuuuuuu*/
+.menu{
+    margin-top: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: max-content;
+}
+
+.menu-contenedor{
+    display: inline-block;
+    margin-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.menu-item{
+    overflow: hidden;
+    margin-top: 0;
+    display: inline-block; 
+    font-size: 18px;
+    background-color: aqua;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+#m1{
+    background-color: #b0e8cd;
+}
+
+#m2{
+    background-color: #ffae52;
+}
+
+#m3{
+    background-color: #ff6978;
+}
+
+#m4{
+    background-color: #2F335B;
+}
+
+.menu-link{
+    overflow: hidden;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #F7F9FB;
+    text-decoration: none;
+    font-weight: 700;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    font-size: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: all 0.2s linear 0s;
+    position: relative;
+}
+
+  .menu-link:before {
+    
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 60px;
+    transform: scale(0, 1);
+    transition: all 0.2s linear 0s;
+  }
+
+  #l1:before{
+    content: "🗊";
+}
+
+#l2:before{
+    content: "🕮";
+}
+
+#l3:before{
+    content: "✎";
+}
+
+#l4:before{
+    content: "☺";
+}
+
+
+
+  .menu-link:hover {
+    text-indent: -9999px;
+  }
+  .menu-link:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+  }
+
+/*Descripcioooooooooooon*/
+.descripcion{
+    max-width: 100%;
+    /*position:absolute;*/
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background-color: #d8d9da;
+    margin-top: 90px;
+}
+
+.descripcion-contenedor{
+    /*position: relative;*/
+    max-width: 100% !important;
+    background-color: #e3e4e6;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 25px;
+}
+
+.seccion-titulo-contenedor{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.seccion-titulo{
+    font-size: 60px;
+    color: #ffae52;
+    margin-bottom: 50px;
+}
+
+.descripcion-texto-contenedor{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.descripcion-texto{
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    text-align: center;
+    color: #2F335B;
+}
+
+/*Temasssssssssssssss*/
+
+.temas{
+    background-image: url(https://cognosonline.com/wp-content/uploads/2018/12/historia-educacion-en-linea-infografia-cognosonline-min-1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    height: 100vh;
+}
+
+.temas-contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 0;
+}
+
+.contenedor{
+    width: 90%;
+    min-height: 50vh;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-contenedor{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 1em;
+}
+
+.slider-body{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    display: grid;
+    background-color: #F7F9FB;
+    grid-template-columns: 1fr;
+    align-items: center;
+    transition: opacity 1.5s;
+    padding: 30px;
+}
+
+.slider-body-show{
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.slidertexts{
+    max-width: 100%;
+}
+
+.tituloslider{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6978;
+}
+
+.parrafoslider{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.7;
+    text-align: center;
+    color: #2F335B;
+}
+
+.slider-arrow{
+    cursor: pointer;
+    width: 90%;
+}
+
+.slider-arrow:nth-of-type(2){
+    justify-self: end;
+}
+
+/*Trabajooooooooos*/
+
+#titulotrabajo{
+    margin-bottom: 27px;
+}
+
+.trabajos{
+    margin-top: 80px;
+
+}
+
+.imggale{
+    margin-top: 5px;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tarea1{
+    background: linear-gradient( rgba(255, 174, 82, 0.75), rgba(255, 174, 82, 0.75), rgba(255, 174, 82, 0.75)), 
+    url('../img/m1t1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#tarea2{
+    background: linear-gradient( rgba(47, 51, 91, 0.75), rgba( 47, 51, 91,0.75), rgba(47, 51, 91, 0.75)), 
+    url('../img/m1t2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#tarea3{
+    background: linear-gradient( rgba(176, 232, 205, 0.75), rgba(176, 232, 205, 0.75), rgba(176, 232, 205, 0.75)), 
+    url('../img/m1t3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#tarea4{
+    background: linear-gradient( rgba(176, 232, 205, 0.75), rgba(176, 232, 205, 0.75), rgba(176, 232, 205, 0.75)), 
+    url('../img/m1t4.png') no-repeat center center;
+    background-size: cover;
+}
+
+#tarea5{
+    background: linear-gradient( rgba(255, 101, 120, 0.75), rgba(255, 101, 120, 0.75), rgba(255, 101, 120, 0.75)), 
+    url('../img/m1t5.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#tarea6{
+    background: linear-gradient( rgba(47, 51, 91, 0.75), rgba( 47, 51, 91,0.75), rgba(47, 51, 91, 0.75)), 
+    url('../img/m1t6.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    height: 675px;
+}
+
+.column{
+    flex: 33%;
+    padding: 5px;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
+/*Botones de las tareaaaaaaaaaaas*/
+
+.button-effect {
+    padding: 0;
+    max-width: 250px;
+    max-height: min-content;
+  }
+   
+  .effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #ff6978;
+    text-transform: capitalize;
+    background-color: #F7F9FB;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+ 
+  .effect.effect-4 {
+    transition: all 0.2s linear 0s;
+  }
+  .effect.effect-4:before {
+    content: "🡆";
+    font-family: FontAwesome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    transform: scale(0, 1);
+    transition: all 0.2s linear 0s;
+  }
+  .effect.effect-4:hover {
+    text-indent: -9999px;
+  }
+  .effect.effect-4:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+  }
+
+  /*Aprendizajeeeeeeeeeeeeeee*/
+
+  .aprendizaje{
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background-color: #e3e4e6;
+    margin-top: 90px;
+  }
+
+  .aprendizaje-contenedor{
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    display: block;
+  }
+
+  .aprendizaje-texto-contenedor{
+      max-width: 60%;
+      float: right;
+      position: relative;
+  }
+
+  .aprendizaje-dibujo{
+      max-width: 35%;
+      float: left;
+      overflow: hidden;
+      position: relative;
+  }
+
+  .dibujoimg{
+      width: 100%;
+      overflow: hidden;
+  }
+
+  .aprendizaje-texto{
+      font-size: 25px;
+      color: #2F335B;
+      font-family: 'Trebuchet MS';
+  }
+
+  #tituloaprendizaje{
+      max-width: 60%;
+      position: relative;
+      margin-right: 0;
+      text-align: left;
+  }
+
+/*El footerrrrrrrrrrrrrrrrr*/
+
+.footer{
+    background: #b0e8cd;   
+}
+
+.footer-wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-text{
+    font-size: 18px;
+}
+
+.footer-text a{
+    color:#ffae52;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-text .icon{
+    color: #ff6978;
+}
